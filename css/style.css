@@ -1,0 +1,78 @@
+html body {
+	max-width: 100%;
+	height: 100%;
+	background: #E9E7E2;
+	overflow-x: hidden;
+}
+.container{
+	margin: 1em 2em 1em 2em;
+}
+.text-center{
+	text-align: center;
+}
+.drawHere{
+	background: #ffffff;
+	margin-top: 12px;
+	margin-bottom: : 20px;
+	box-shadow: 10px 10px 10px #6C6B69;
+	border: 2px solid;
+	cursor: crosshair;
+}
+.mainHeading{
+	margin-bottom: 10px;
+}
+.subHeading{
+	margin-top: 4px;
+	margin-bottom: 2px;
+}
+.colors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singleColor {
+  border: 1px solid;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px #6C6B69;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.singleColor:hover{
+	box-shadow: 8px 8px 8px #6C6B69;
+}
+.buttons{
+	margin-top: 10px;
+}
+.btn{
+	padding: 10px 20px;
+	border: none;
+	border-radius: 6px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px #6C6B69;
+	font-weight: bold;
+}
+.btn:hover{
+	box-shadow: 3px 3px 3px #6C6B69;	
+}
+.btn-success{
+	background: #7ECA27;
+	color: #000;
+}
+.btn-warning{
+	background: #EECE06;
+	color: #000;
+}
+#msg{
+	font-size: 1.3em;
+	color: green;
+	font-weight: bold;
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}

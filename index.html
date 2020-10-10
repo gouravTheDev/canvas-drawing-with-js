@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Simple Canvas</title>
+	<meta charset="utf-8">
+  	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="init()">
+	<div class="container text-center">
+		<h1 class="mainHeading">Draw With Javascript</h1>
+		<h2 class="subHeading">Choose Color</h2>
+		<div class="colors">
+		    <div style="background:green;" class="singleColor" id="green" onclick="color(this)"></div>
+		    <div style="background:blue;" class="singleColor" id="blue" onclick="color(this)"></div>
+		    <div style="background:red;" class="singleColor" id="red" onclick="color(this)"></div>
+		    <div style="background:yellow;" class="singleColor" id="yellow" onclick="color(this)"></div>
+		    <div style="background:orange;" class="singleColor" id="orange" onclick="color(this)"></div>
+		    <div style="background:black;" class="singleColor" id="black" onclick="color(this)"></div>
+		</div><br>
+		<canvas id="can" class="drawHere" width="600" height="400"></canvas>
+		<br>
+		<p id="msg">Your PDF is downloaded!</p>
+		<img id="canvasimg">
+		<div class="buttons">
+			<button class="btn btn-success" onclick="save()">Save as PDF</button>
+			<button class="btn btn-warning" onclick="erase()">Clear Drawing</button>
+		</div>
+	</div>
+    
+<script type="text/javascript" src="js/html2pdf.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
